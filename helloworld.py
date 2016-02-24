@@ -1,10 +1,16 @@
-# replace the contents of this comment with your full name
+# Ian Miller
 
-# write a program that:
-# 1. greets the user in English
-# 2. asks the user to choose from 1 of 3 spoken languages (pick your favorite languages!) 
-# 3. displays the greeting in the chosen language
-# 4. exits
+print('Hello!')
+print('What is your prefered language? \n A. English \n B. German \n C. Russian')
+# the next line allows the user to input their prefered language
+favL = input()
+# here I used an if statement to print a greeting based on what the user inputs as their prefered lagnguage.
+if favL == str('A'):
+    print('Greetings')
+elif favL == str('B'):
+    print('Guten Tag')
+else:
+    print('Privetstvuyu')
+quit()
 
-# make sure that your code contains comments explaining your logic!
 
